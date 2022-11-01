@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    width: 320px;
+    height: min-content;
+    border: 1px solid lightgrey;
+    border-radius: 9px;
+    margin: 24px 0 0 24px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+
+p{
+    margin: 0;
+    
+}
+.card > p{
+    font-size: 22px;
+    color: gray;
+    margin: 0;
+    padding: 24px 24px 48px 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.teal > img {
+    border-radius: 50px;
+    border: 3px solid white;
+    margin-top: -44px;
+    width: 75px;
+    height: 75px;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.teal > h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.teal p:nth-child(3){
+    text-transform: uppercase;
+    color: lightgray;
+    padding-bottom:24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+}
+
+
+
+
+
+.planta{
+    border: 1px solid lightgrey;
+    border-radius: 9px;
+    width: 320px;
+    height: 100px;
+    margin: 24px 24px;
+    display: flex;
+    overflow: hidden;
+
+}
+.planta > img{
+    width: 100px;
+    height: 75px;
+}
+.planta > .maple{
+    margin-left: 24px;
+    margin-bottom: 24px;
+
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.faltantes{
+    color: teal;
+    margin-top: 12px;
+}
+
+
+.corazon{
+    border: 1px solid lightgrey;
+    border-radius: 9px;
+    width: 320px;
+    height: 200px;
+    margin: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.corazon > .pulso{
+    width: 80%;
+    height: 30%;
+    margin-left: 24px;
+}
+
+.corazon > div{
+   display: flex;
+   margin-top: 24px;
+   margin-left: 24px;
+}
+
+.pulsaciones{
+    margin-left: 24px;
+}
+.pulsaciones > .ritmo{
+    margin-left: 24px;
+    display: flex;
+}
+.ritmo > p{
+    margin: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pulsaciones > h1{
+    font-size: 12px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 24px;
+    text-transform: uppercase;
+}
+
+
+.notificacion{
+    border: 1px solid lightgrey;
+    border-radius: 9px;
+    width: 320px;
+    height: 200px;
+    margin: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.notificacion > p{
+    font-size: 12px;
+    margin-left: 18px;
+}
+.notificacion > .cuenta{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cuenta > p{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuenta > p:hover{
+    color: red;
+}
+.cuenta > h1{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.notificacion > .btn{
+    background-color: lightgray;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.cancelar{
+    background-color: transparent;
+    color: gray;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 9px;
+}
+
+.desactivar{
+    background-color:rgb(223, 52, 52);
+    border: 0;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 9px;
+    margin-right: 16px;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
